@@ -1,0 +1,66 @@
+/*Navigation*/
+.main-nav {
+    background: green;
+    box-sizing: border-box
+}
+
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.main-nav a {
+    background: green;
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: 1.1rem;
+}
+
+.main-nav a:hover {
+    background: lightgreen;
+}
+
+/* Hero image */
+.hero-img {
+    background: url(jacks.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+
+.hero-text {
+    text-align: center;
+    top: 50%
+}
+
+/* Content*/
+.body-wrapper{
+    margin: 0 auto;
+    padding: 20px 100px 20px 100px;
+}
+/* box-text-a */
+#box-text-a {
+    box-sizing: border-box;
+    border: 5px;
+}
+/* Footer */
+footer {
+    background: green;
+    text-align: left;
+    color: white;
+}
+
+footer p {
+    padding: 20px 0px 20px 20px;
+}
